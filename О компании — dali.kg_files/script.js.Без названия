@@ -1,0 +1,68 @@
+$(document).ready(function() {
+    $('.navbar-toggler').on('click',function (){
+        $('.navbar').toggleClass('active-1')
+    })
+
+    const brands_owl = $(".brands-carousel");
+    brands_owl.owlCarousel({
+        loop: false,
+        dots:false,
+        autoplay: false,
+        nav: false,
+        responsive:{
+            1200:{
+                items: 6,
+            },
+            992:{
+                items: 4,
+            },
+            768:{
+                items: 3,
+            },
+            425:{
+                items: 2,
+            },
+            320:{
+                items: 1,
+            }
+        }
+    });
+    const clients_owl = $(".clients-carousel");
+    clients_owl.owlCarousel({
+        loop: false,
+        dots:false,
+        autoplay: false,
+        nav: false,
+        responsive:{
+            1200:{
+                items: 4,
+            },
+            768:{
+                items: 3,
+            },
+            320:{
+                items: 2,
+            }
+        }
+    });
+
+    //counter up
+    if ($('.statistics').length) {
+        if (!$('.statistics').is('.animated')) {
+            $(window).on('scroll', function () {
+                if (($(window).scrollTop() + $(window).height()) > $('.statistics').offset().top + 100) {
+                    $('.statistics').addClass('animated');
+                    $('.counter').countTo();
+                }
+            });
+        }
+    }
+
+});
+$(document).scroll(function() {
+    if ( $(document).scrollTop() >= 50 ) {
+        $('.navbar').addClass('active')
+    } else {
+        $('.navbar').removeClass('active')
+    }
+});

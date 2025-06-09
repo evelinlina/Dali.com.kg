@@ -1,0 +1,468 @@
+@media (min-width: 768px) {
+    .w-400 {
+        max-width: 400px;
+    }
+    .kyrghyz .about-definition{
+        height: 79px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (min-width: 992px) {
+    .statistics-title{
+        height: 50px;
+    }
+
+    .clients-carousel .owl-stage{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .about-us-2 .row:nth-child(odd) .col-lg-6:first-child{
+        -ms-flex: 0 0 51%;
+        flex: 0 0 51%;
+        max-width: 51%;
+    }
+    .about-us-2 .row:nth-child(odd) .col-lg-6:last-child{
+        -ms-flex: 0 0 49%;
+        flex: 0 0 49%;
+        max-width: 49%;
+    }
+    .about-us-2 .row:nth-child(even) .col-lg-6:first-child{
+        -ms-flex: 0 0 51%;
+        flex: 0 0 51%;
+        max-width: 51%;
+    }
+    .about-us-2 .row:nth-child(even) .col-lg-6:last-child{
+        -ms-flex: 0 0 49%;
+        flex: 0 0 49%;
+        max-width: 49%;
+    }
+    .statistics-card .flex-wrap{
+        height: 105px;
+        align-items: flex-start;
+    }
+    .facility-img{
+        height: 176px;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+    }
+    .bg-desc{
+        padding-right: 11px;
+    }
+    .bg-3 .d-flex{
+        padding-left: 6px;
+    }
+    footer .col-md-10{
+        padding-left: 0;
+    }
+    .bg-3 .d-flex {
+        padding-top: 25px;
+    }
+    .staff-name{
+        padding-top: 65px;
+    }
+    .about-us-2 .about-title {
+        padding-top: 27px;
+    }
+    .about-us-2 .text p{
+        margin-bottom: 23px;
+    }
+    .standard .col-sm-10{
+        height: 70px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .bg-2-img {
+        text-align: right;
+    }
+    .bg-2 .bg-img{
+        right: 15px;
+    }
+}
+@media (max-width: 1199px) {
+    .site-desc {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    .bg-img img{
+        max-width: 500px;
+    }
+    .page-card {
+        padding: 15px;
+    }
+    .page-card img {
+        top: 0;
+        max-height: 134px;
+    }
+    .statistics,.clients,.contacts{
+        padding-top: 50px;
+    }
+    .brands-section, .map{
+        padding-top: 30px;
+    }
+    .about-us{
+        padding: 30px 0;
+    }
+    .about-us:not(.about-us-2) p:nth-child(2n) {
+        margin-bottom: 20px;
+    }
+    .about-us .col-lg-6 {
+        margin-bottom: 50px;
+    }
+    .contacts .btn-custom{
+        margin-bottom: 50px;
+    }
+    .bg-1,.bg-3 {
+        padding-top: 30px;
+    }
+    .suppliers-page, .applicants-page {
+        padding: 50px 0;
+    }
+    .bg-2 .bg-img {
+        top: 15px;
+    }
+    .map-1 {
+        padding-bottom: 50px;
+    }
+    .bg-3 img {
+        max-height: 400px;
+    }
+    .bg-3 .d-flex{
+        flex-wrap: wrap;
+    }
+    .staff-info{
+        text-align: right;
+    }
+    .bg-desc {
+        margin-bottom: 25px;
+    }
+    .about-us-2{
+        padding: 0;
+    }
+    .about-us-2 .about-title {
+        margin-bottom: 10px;
+        font-size: 21px;
+    }
+    .about-us-2 .col-lg-6 {
+        font-size: 20px;
+    }
+    .file {
+        height: 50px;
+    }
+    .about-us .col-lg-6 {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 1100px) {
+    .bg-2 img{
+        max-width: 400px;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-toggler {
+        color: #052E84;
+        padding: 0;
+        font-size: 20px;
+    }
+    .navbar-nav{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: calc(100vh - 100px);
+        overflow: auto;
+    }
+    .navbar li:not(:last-child) {
+        margin-bottom: 5px;
+    }
+    .custom-logo-link img{
+        max-width: 63px;
+    }
+    header {
+        margin-bottom: 63px;
+    }
+    .site-desc {
+        font-size: 28px;
+    }
+    .bg-img {
+        right: 15px;
+    }
+    .bg-img img {
+        max-width: 400px;
+    }
+    .w-400 {
+        margin-bottom: 20px;
+    }
+    .btn-custom span,.contacts .btn-custom span {
+        padding: 10px 20px;
+    }
+    .bg-1 .btn-custom {
+        margin-bottom: 30px;
+    }
+    .statistics-card .d-flex span:first-child{
+        margin-right: 10px;
+    }
+    .about-us .col-lg-6 {
+        margin-bottom: 19px;
+    }
+
+    .contacts {
+        font-size: 25px;
+    }
+    .contacts .mdi {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+    .statistics, .clients, .contacts,.page-cards {
+        padding-top: 30px;
+    }
+    .brands-section, .map {
+        padding-top: 10px;
+    }
+    .about-us {
+        padding: 10px 0;
+    }
+    .contacts .heading-title {
+        margin-bottom: 20px;
+    }
+    .contacts .d-flex {
+        margin-bottom: 20px;
+    }
+    .contacts .btn-custom {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .contacts img {
+        right: 0;
+        top: -40px;
+    }
+    footer ul {
+        flex-wrap: wrap;
+    }
+    footer li{
+        width: 33.3333%;
+        text-align: center;
+    }
+    .clients img{
+        margin: auto;
+        max-height: 50px;
+    }
+    .navbar-expand-lg>.container{
+        padding: 0 15px;
+    }
+
+    .map-1 {
+        padding-bottom: 10px;
+    }
+    .bg-3 .heading-title {
+        margin-bottom: 20px;
+    }
+    .bg-3 .d-flex {
+        display: none!important;
+    }
+    .bg-3 .col-xl-6{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .bg-img img {
+        max-width: 300px;
+    }
+    .suppliers-page, .applicants-page {
+        padding: 30px 0;
+    }
+    .bg-desc {
+        margin-bottom: 20px;
+    }
+    .bg-2-img {
+        width: 345px;
+        height: 345px;
+    }
+    .bg-2-img:before {
+        right: calc(50% - 150px);
+        top: calc(50% - 150px);
+    }
+    .bg-2 .bg-img {
+        top: 60px;
+    }
+    .bg-3 input[type="submit"] {
+        padding: 10px;
+        height: 46px;
+    }
+    .about-us-2 .row:nth-child(even) .col-lg-6:first-child,
+    .about-us-2 .row:nth-child(odd) .col-lg-6:last-child{
+        text-align: center;
+    }
+    .statistics-card .d-flex:last-child span:nth-child(2n){
+        margin-right: 10px;
+    }
+    .work-flow .custom-col:nth-child(even){
+        display: none;
+    }
+    .standard, .work-flow {
+        padding: 30px 0;
+    }
+}
+@media (max-width: 767px) {
+    .bg-img {
+       display: none;
+    }
+    .w-400{
+        text-align: center;
+    }
+    .contacts{
+        text-align: center;
+    }
+    .contacts .d-flex {
+        max-width: 260px;
+        margin: auto;
+    }
+    .contacts img {
+        display: none;
+    }
+    footer .col-md-2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .work-flow .custom-col{
+        width: 100%;
+    }
+    .work-flow .custom-col:not(:last-child){
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 575px) {
+    .w-400 .col-md-3{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .w-400{
+        margin-bottom: 0;
+    }
+    footer li {
+        width: 50%;
+    }
+    .statistics-img {
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    .statistics-info{
+        width: 100%;
+    }
+    .statistics-card .d-flex:first-child {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .statistics-card {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .clients img {
+        max-height: 40px;
+    }
+    .about-us .col-lg-6 {
+        font-size: 16px;
+    }
+    .standard .custom-card {
+        text-align: center;
+    }
+    .standard .col-sm-2{
+        margin-bottom: 20px;
+    }
+    .work-flow .text-center {
+        font-size: 17px;
+    }
+}
+@media (max-width: 425px) {
+    .contacts {
+        font-size: 20px;
+    }
+    .contacts .mdi {
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
+    }
+    .contacts .d-flex {
+        max-width: 210px;
+    }
+    .contacts .btn-custom {
+        margin-top: 10px;
+    }
+    .btn-custom {
+        font-size: 16px;
+    }
+    .site-desc {
+        font-size: 21px;
+    }
+    .w-400 img {
+        max-width: 70px;
+    }
+    .bg-1 .btn-custom {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .bg-1 .col-md-7{
+        text-align: center;
+    }
+    .w-400 .col-md-3 {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 375px) {
+    footer li {
+        width: 100%;
+    }
+    .about-title {
+        font-size: 24px;
+    }
+    .bg-3 .heading-title {
+        font-size: 24px;
+    }
+    .statistics-card .d-flex:last-child span:nth-child(2n){
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

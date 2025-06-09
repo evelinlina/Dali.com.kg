@@ -1,0 +1,38 @@
+.danone-card {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: 'Segoe UI', sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .danone-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+  }
+  
+  .danone-logo {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .danone-content {
+    padding: 24px;
+  }
+  
+  .danone-content h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+    color: #0066b3;
+    margin-bottom: 12px;
+  }
+  
+  .danone-content p {
+    color: #333;
+    line-height: 1.6;
+    font-size: 1rem;
+  }

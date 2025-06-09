@@ -607,24 +607,30 @@
     </footer>
     <script src="scripts/menu.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const menuItems = document.querySelectorAll('.brands-link');
-            console.log(menuItems)
-            menuItems.forEach(item => {
-                item.addEventListener('mouseenter', function () {
-                    const submenu = item.querySelector('.modal-brand');
-                    if (submenu) {
-                        submenu.style.display = 'block';
-                    }
-                });
-                item.addEventListener('mouseleave', function () {
-                    const submenu = item.querySelector('.modal-brand');
-                    if (submenu) {
-                        submenu.style.display = 'none';
-                    }
-                });
-            });
+       document.addEventListener('DOMContentLoaded', function () {
+    const menuItems = document.querySelectorAll('.brands-link');
+
+    menuItems.forEach(item => {
+        item.addEventListener('click', function (e) {
+            e.stopPropagation(); // Предотвращаем всплытие, чтобы избежать немедленного скрытия
+            const submenu = item.querySelector('.modal-brand');
+            if (submenu) {
+                const isVisible = submenu.style.display === 'block';
+                // Скрываем все остальные подменю
+                document.querySelectorAll('.modal-brand').forEach(sm => sm.style.display = 'none');
+                // Показываем или скрываем текущее подменю
+                submenu.style.display = isVisible ? 'none' : 'block';
+            }
         });
+    });
+
+    // Клик вне меню закрывает все подменю
+    document.addEventListener('click', function () {
+        document.querySelectorAll('.modal-brand').forEach(submenu => {
+            submenu.style.display = 'none';
+        });
+    });
+});
     </script>
 </body>
 

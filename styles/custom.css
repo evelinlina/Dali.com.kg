@@ -185,7 +185,9 @@ header{
     background-color: #FCFCFC;
     color: #A6A7A8;
     transition: all ease-in-out .2s;
-    margin: 0 0px;    
+    margin: 0 0px;  
+    display: flex;
+    flex-direction: row;
 }
 .statistics-card{
     padding: 13px 15px;

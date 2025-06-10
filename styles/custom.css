@@ -188,6 +188,7 @@ header{
     margin: 0 0px;  
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .statistics-card{
     padding: 13px 15px;

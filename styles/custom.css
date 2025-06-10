@@ -1081,7 +1081,7 @@ background-image: url(../images/magaz.jpg);
 }
 
 .brands-name {
-  font-size: 20PX;
+  font-size: 20px;
   font-weight: 600;
   margin-top: 10px;
   color: #222;
@@ -1089,7 +1089,7 @@ background-image: url(../images/magaz.jpg);
 
 .brands-link {
   margin-top: 8px;
-  font-size: 1rem;
+  font-size:20PX;
   color: #007bff;
   cursor: pointer;
 }
@@ -1128,7 +1128,7 @@ background-image: url(../images/magaz.jpg);
   }
 
   .brands-name {
-    font-size: 1rem;
+    font-size:20px;
   }
 
   .brands-link {

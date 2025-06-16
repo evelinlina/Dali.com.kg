@@ -16,7 +16,7 @@ a{
     color: #052E84;
 }
 a,span{
-    display: inline-block;
+    display: block;
 }
 a:hover,
 a:focus {

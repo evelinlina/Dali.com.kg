@@ -624,11 +624,11 @@
             e.stopPropagation(); // Предотвращаем всплытие, чтобы избежать немедленного скрытия
             const submenu = item.querySelector('.modal-brand');
             if (submenu) {
-                const isVisible = submenu.style.display === 'block';
+                const isVisible = submenu.style.display === 'flex';
                 // Скрываем все остальные подменю
                 document.querySelectorAll('.modal-brand').forEach(sm => sm.style.display = 'none');
                 // Показываем или скрываем текущее подменю
-                submenu.style.display = isVisible ? 'none' : 'block';
+                submenu.style.display = isVisible ? 'none' : 'flex';
             }
         });
     });

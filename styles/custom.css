@@ -1054,10 +1054,5 @@ background-image: url(../images/magaz.jpg);
 }
 }
  .custom-card-2{
-    display: flex;
-    flex-wrap: wrap;
- }
- .custom-card-2 a{
-    display: flex;
-    flex-wrap: wrap;
+  display:block;
  }

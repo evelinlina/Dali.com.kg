@@ -789,6 +789,7 @@ video{
     width: 250%;
     max-height: 80%;
     overflow: visible;
+    min-height:150%;
 }
 .modal-brand button {
     padding: 0px 7.5px;

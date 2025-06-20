@@ -789,7 +789,6 @@ video{
     width: 250%;
     max-height: 80%;
     overflow: visible;
-    min-height:150%;
     align-content:flex-start;
 }
 .modal-brand button {

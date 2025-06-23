@@ -101,6 +101,7 @@ header{
     border: 1px solid #052E84;
     color: #fff;
     font-size: 20px;
+    display: inline-block;
 }
 .btn-custom:hover{
     color: #fff;

@@ -1059,3 +1059,7 @@ background-image: url(../images/magaz.jpg);
  .custom-card-2{
   display:block;
  }
+.row{
+    gap: 50px;
+    justify-content: center;
+}

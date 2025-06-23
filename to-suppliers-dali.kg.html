@@ -1052,16 +1052,36 @@
             animateCounter('counter-infrastructure', 3000, 8000); // От 0 до 3000 для инфраструктуры
         }
     </script>
+   
     <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    // После успешной отправки формы
-    document.addEventListener('wpcf7mailsent', function (event) {
-      // Скрываем форму
-      document.querySelector('.wpcf7-form-wrap').style.display = 'none';
-      // Показываем сообщение
-      document.getElementById('thanks-message').style.display = 'block';
-    }, false);
+document.addEventListener('DOMContentLoaded', () => {
+  // Форма Contact Form 7
+  const formWrap = document.querySelector('#wpcf7-f69-o2'); // замените ID, если другой
+
+  if (!formWrap) return;
+
+  document.addEventListener('wpcf7submit', event => {
+    // отменяем стандартный редирект
+    event.preventDefault();
   });
+
+  document.addEventListener('wpcf7mailsent', event => {
+    // Скрываем форму
+    formWrap.style.display = 'none';
+
+    // Создаём и показываем блок благодарности
+    let thanks = document.getElementById('thanks-message');
+    if (!thanks) {
+      thanks = document.createElement('div');
+      thanks.id = 'thanks-message';
+      thanks.innerHTML = `
+        <h3>Спасибо!</h3>
+        <p>Ваше сообщение успешно отправлено. Мы скоро свяжемся с вами.</p>`;
+      formWrap.parentElement.appendChild(thanks);
+    }
+    thanks.style.display = 'block';
+  });
+});
 </script>
 </body>
 

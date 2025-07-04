@@ -1025,3 +1025,119 @@ background-image: url(../images/magaz.jpg);
     gap: 50px;
     justify-content: center;
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    padding: 10px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-nav li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .navbar-toggler {
+    display: block;
+    margin-left: auto;
+  }
+
+  .collapse.navbar-collapse {
+    width: 100%;
+  }
+
+  .site-desc {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .custom-card.about-card {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .about-title {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .text p,
+  .text-about {
+    font-size: 16px;
+  }
+
+  .btn-custom {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  input.custom-input,
+  textarea.custom-input,
+  .wpcf7-form-control {
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  input[type="file"] {
+    width: 100%;
+  }
+
+  .modal-dialog {
+    margin: 1rem;
+  }
+
+  .modal-content {
+    padding: 15px;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer .list-inline {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  footer .list-inline li {
+    margin-bottom: 10px;
+  }
+
+  .col-lg-6,
+  .col-md-7,
+  .col-xl-3,
+  .col-lg-4,
+  .col-sm-12,
+  .col-xl-6,
+  .col-lg-5,
+  .col-lg-7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

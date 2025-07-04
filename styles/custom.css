@@ -942,8 +942,8 @@ background-image: url(../images/magaz.jpg);
     object-fit: contain;
 }
 @font-face{
-    font-family: "";
-    src: url(../fonts/Sacramento.ttf);
+    font-family: "Catrinity";
+    src: url(../fonts/Catrinity.otf);
 }
 .custom-card-2{
     width: 170px;
@@ -991,7 +991,7 @@ background-image: url(../images/magaz.jpg);
     margin-bottom: 12px;
   }
   .danone-content p {
-    font-family: "sacramento";
+    font-family: "Catrinity";
     color: #052E84;
     font-size: 30px;
     font-weight: normal;

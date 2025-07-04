@@ -942,7 +942,7 @@ background-image: url(../images/magaz.jpg);
     object-fit: contain;
 }
 @font-face{
-    font-family: "sacramento";
+    font-family: "";
     src: url(../fonts/Sacramento.ttf);
 }
 .custom-card-2{

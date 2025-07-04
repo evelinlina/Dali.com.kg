@@ -1018,45 +1018,6 @@ background-image: url(../images/magaz.jpg);
     margin-left: 100px;
     margin-top: 20px;
 }
-@media screen and (max-width: 480px){
-   a{
-    font-size: 15px!important;
-    margin-top: 15px;
-} 
-}
-@media screen and (max-width: 1200px){ 
-  .group_brand{
- width: 800px;
-}
-}
-@media screen and (max-width:800px){ 
-  .group_brand{
- width: 550px;
- display: flex;
- 
-}
-}
-@media screen and (max-width:760px){ 
- .group_brand{
- width: 150px;
- display: flex;
- flex-wrap: wrap;
-}
-}
-@media screen and (max-width:800px){ 
- .custom{
- width: 150px;
- display: flex;
- flex-wrap: wrap;
-}
-}
-@media screen and (max-width:700px){ 
- .custom{
- width: 100px;
- display: flex;
- flex-wrap: wrap;
-}
-}
  .custom-card-2{
   display:block;
  }

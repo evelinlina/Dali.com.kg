@@ -1141,3 +1141,89 @@ background-image: url(../images/magaz.jpg);
     margin-right: 0;
   }
 }
+/* Общие стили для брендов */
+.brands-page .custom-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Изображения брендов */
+.brands-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Контейнеры сетки */
+@media (max-width: 480px) {
+    .custom-card,
+    .brands-card,
+    .custom-card-2 {
+        width: 100% !important;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        background: #fff;
+        padding: 15px;
+    }
+
+    .navbar-collapse {
+        background: #fff;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .brands-link {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .modal-brand {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .modal-brand .custom-card-2 {
+        width: 100% !important;
+    }
+
+    footer .col-md-2,
+    footer .col-md-10 {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer ul.list-inline {
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    footer ul.list-inline li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Улучшение форм на телефонах */
+@media (max-width: 480px) {
+    .wpcf7-form-control {
+        width: 100% !important;
+        font-size: 16px;
+    }
+
+    .wpcf7-submit.btn-custom {
+        width: 100%;
+    }
+
+    .heading-title {
+        font-size: 24px;
+        text-align: center;
+    }
+}

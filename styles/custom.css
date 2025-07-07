@@ -811,6 +811,8 @@ video{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .active{
     display: block;

@@ -1252,7 +1252,9 @@ background-image: url(../images/magaz.jpg);
 /* Медиа-запрос для мобильных */
 @media (max-width: 768px) {
     .modal-brand {
-        position: absolute;
+        position: fixed;
+        top: 409px;
+        left: 195px;
         top: 0;
         left: 0;
         width: 100%;

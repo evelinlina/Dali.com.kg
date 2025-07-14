@@ -1291,4 +1291,7 @@ background-image: url(../images/magaz.jpg);
         border-radius: 5px;
         text-decoration: none;
     }
+    .slick-slider{
+         display: none;
+    }
 }

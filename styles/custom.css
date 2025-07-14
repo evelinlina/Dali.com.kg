@@ -1292,3 +1292,77 @@ background-image: url(../images/magaz.jpg);
         text-decoration: none;
     }
 }
+.brands-card {
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+}
+
+.brands-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.brands-name {
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.brands-link {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.brands-description {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f3f3f3;
+    border-left: 4px solid #007bff;
+    display: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.brands-description.show {
+    display: block;
+}
+
+/* ===== Адаптив ===== */
+@media (max-width: 768px) {
+    .brands-name {
+        font-size: 15px;
+    }
+
+    .brands-link {
+        font-size: 13px;
+    }
+
+    .brands-card {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .brands-name {
+        font-size: 14px;
+    }
+
+    .brands-link {
+        font-size: 12px;
+    }
+
+    .brands-card {
+        padding: 8px;
+    }
+
+    .brands-description {
+        font-size: 13px;
+    }
+}

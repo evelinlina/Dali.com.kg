@@ -1295,72 +1295,7 @@ background-image: url(../images/magaz.jpg);
        width: auto!important; 
 } 
 }
-.slick-slider{
+.slick-track{
  
   width: 100%!important;
 } 
-.brands-slider-container {
-    width: 100%;
-    overflow: hidden;
-    padding: 10px 0;
-}
-
-/* Горизонтальный слайдер */
-.brands-wrapper {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none; /* Firefox */
-}
-
-.brands-wrapper::-webkit-scrollbar {
-    display: none; /* Chrome, Safari */
-}
-
-/* Карточки */
-.custom-card.brands-card {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-    width: 80%;
-    max-width: 320px;
-    margin: 0 10px;
-    background: #fff;
-    border: 1px solid #eee;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.brands-img img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px 8px 0 0;
-}
-
-.brands-name {
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
-}
-
-.brands-link {
-    text-align: center;
-    padding: 10px;
-    color: #0073aa;
-    cursor: pointer;
-}
-
-@media (min-width: 768px) {
-    .brands-wrapper {
-        flex-wrap: wrap;
-        justify-content: center;
-        overflow-x: hidden;
-        scroll-snap-type: none;
-    }
-
-    .custom-card.brands-card {
-        flex: 0 0 30%;
-        margin: 10px;
-    }
-}

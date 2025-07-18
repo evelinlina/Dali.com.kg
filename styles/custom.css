@@ -1292,11 +1292,11 @@ background-image: url(../images/magaz.jpg);
         text-decoration: none;
     }
     .slick-slider{
-       width: auto; 
-      display: none;
+       width: auto!important; 
+      display: none!important;
 } 
 }
 .slick-slider{
-  display: none;
-  width: 100%;
+  display: none!important;
+  width: 100%!important;
 } 

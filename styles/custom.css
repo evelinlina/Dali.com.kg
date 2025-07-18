@@ -1293,5 +1293,6 @@ background-image: url(../images/magaz.jpg);
     }
     .slick-slider{
  width: 100%;
+ display: none;
 } 
 }

@@ -1295,5 +1295,8 @@ background-image: url(../images/magaz.jpg);
 /*        width: auto!important;  */
          display: flex!important;
 } 
+    .slick-track>div{
+        width:200px;
+    }
 }
 

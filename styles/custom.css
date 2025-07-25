@@ -1293,7 +1293,7 @@ background-image: url(../images/magaz.jpg);
     }
     .slick-track{
 /*        width: auto!important;  */
-         display: flex;
+         display: flex!important;
 } 
 }
 
